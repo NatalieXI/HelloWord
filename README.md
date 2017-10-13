@@ -49,7 +49,8 @@ Markdown 的粗体和斜体也非常简单，用两个 * 加一段文本就是�
 # 代码框
 
 如果你是个程序猿，需要在文章里优雅的引用代码框，在 Markdown下实现也非常简单，只需要用两个把中间的代码包起来
-`public static boolean isDirExist(String dirPath, boolean bCreate) {
+```
+public static boolean isDirExist(String dirPath, boolean bCreate) {
 		File dir = new File(dirPath);
 		if (dir.exists())
 			return true;
@@ -65,7 +66,8 @@ Markdown 的粗体和斜体也非常简单，用两个 * 加一段文本就是�
 			else
 				return false;
 		}
-}`
+}
+```
  
 # 分割线
 
