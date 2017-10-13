@@ -48,7 +48,7 @@ Markdown 的粗体和斜体也非常简单，用两个 * 加一段文本就是�
 
 # 代码框
 
-如果你是个程序猿，需要在文章里优雅的引用代码框，在 Markdown下实现也非常简单，只需要用两个`把中间的代码包起来
+如果你是个程序猿，需要在文章里优雅的引用代码框，在 Markdown下实现也非常简单，只需要用两个把中间的代码包起来
 `public static boolean isDirExist(String dirPath, boolean bCreate) {
 		File dir = new File(dirPath);
 		if (dir.exists())
@@ -66,12 +66,13 @@ Markdown 的粗体和斜体也非常简单，用两个 * 加一段文本就是�
 			else
 				return false;
 		}
-	}`
+}`
  
 # 分割线
 
 分割线的语法只需要三个 * 号，例如：
 ***
+>到这里，Markdown 的基本语法在日常的使用中基本就没什么大问题了，只要多加练习，配合好用的工具，写起东西来肯定会行云流水。更多的语法规则，其实 Mou 的 Help 文档栗子很好，当你第一次使用 Mou 时，就会显示该文档。可以用来对用的查找和学习。
 
 
 
