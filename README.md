@@ -55,7 +55,6 @@ Markdown 的粗体和斜体也非常简单，用两个 * 加一段文本就是�
 			return true;
 		if (!bCreate)
 			return false;
-
 		// 创建目录
 		File parent = dir.getParentFile();
 		if (parent.exists()) {
